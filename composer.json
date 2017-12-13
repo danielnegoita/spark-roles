@@ -1,0 +1,33 @@
+{
+    "name": "danielnegoita/spark-roles",
+    "description": "Laravel Spark package for roles and permissions",
+    "type": "package",
+    "license": "MIT",
+    "homepage": "https://github.com/danielnegoita/spark-roles",
+    "keywords": ["authorization", "permissions", "roles", "admin", "danielnegoita", "laravel", "spark"],
+    "authors": [
+        {
+            "name": "Daniel Negoita",
+            "email": "hello@danielnegoita.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danielnegoita\\SparkRoles\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danielnegoita\\SparkRoles\\SparkRolesServiceProvider"
+            ],
+            "aliases": {
+                "SparkRoles": "Danielnegoita\\SparkRoles\\SparkRolesFacade"
+            }
+        }
+    }
+}
