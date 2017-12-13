@@ -1,11 +1,11 @@
 <?php
-namespace Danielnegoita\SparkRoles\Controllers;
+namespace Danielnegoita\SparkRoles\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class WatchtowerController extends Controller
+class SparkRolesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,6 +14,6 @@ class WatchtowerController extends Controller
      */
     public function index()
     {
-    	return "hello world";
+       return 'hello world';
     }
 }

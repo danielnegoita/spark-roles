@@ -1,7 +1,7 @@
 <?php
 namespace Danielnegoita\SparkRoles;
 
-class SparkInvite
+class SparkRoles
 {
 
 }

@@ -24,7 +24,7 @@
                 "Danielnegoita\\SparkRoles\\SparkRolesServiceProvider"
             ],
             "aliases": {
-                "SparkRoles": "Danielnegoita\\SparkRoles\\SparkRolesFacade"
+                "SparkRoles": "Danielnegoita\\SparkRoles\\Facade\\SparkRoles"
             }
         }
     }
