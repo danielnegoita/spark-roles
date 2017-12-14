@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Danielnegoita\\SparkRoles\\SparkRolesServiceProvider"
+                "Danielnegoita\\SparkRoles\\ServiceProvider"
             ],
             "aliases": {
-                "SparkRoles": "Danielnegoita\\SparkRoles\\Facade\\SparkRoles"
+                "SparkRoles": "Danielnegoita\\SparkRoles\\Facade"
             }
         }
     }

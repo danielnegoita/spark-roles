@@ -1,10 +1,7 @@
 <?php
 namespace Danielnegoita\SparkRoles;
 
-use Illuminate\Support\ServiceProvider;
-use Illuminate\Routing\Router;
-
-class SparkRolesServiceProvider extends ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 	/**
      * Perform post-registration booting of services.

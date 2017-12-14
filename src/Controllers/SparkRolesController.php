@@ -1,8 +1,7 @@
 <?php
-namespace Danielnegoita\SparkRoles\Http\Controllers;
+namespace Danielnegoita\SparkRoles\Controllers;
 
 use App\Http\Requests;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class SparkRolesController extends Controller
