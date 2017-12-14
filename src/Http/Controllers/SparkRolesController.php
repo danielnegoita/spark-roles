@@ -14,6 +14,6 @@ class SparkRolesController extends Controller
      */
     public function index()
     {
-       return 'hello world';
+       return view('dashboard');
     }
 }
