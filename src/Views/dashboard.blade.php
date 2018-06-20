@@ -1,1 +1,1 @@
-hello from dashboard
+<h1>Hello from controller<h1>
